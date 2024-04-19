@@ -2,9 +2,9 @@ package com.qianxinyao.analysis.jieba.keyword;
 
 /**
  * @author Tom Qian
- * @email tomqianmaple@outlook.com
- * @github https://github.com/bluemapleman
- * @date Oct 20, 2018
+ * email tomqianmaple@outlook.com
+ * github https://github.com/bluemapleman
+ * date Oct 20, 2018
  */
 public class Keyword implements Comparable<Keyword> {
     private double tfidfvalue;

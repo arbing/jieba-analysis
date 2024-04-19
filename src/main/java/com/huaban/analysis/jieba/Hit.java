@@ -50,10 +50,11 @@ public class Hit {
 	 * 词段的结束位置
 	 */
 	private int end;
-	
-	
+
+
 	/**
 	 * 判断是否完全匹配
+	 * @return
 	 */
 	public boolean isMatch() {
 		return (this.hitState & MATCH) > 0;
@@ -67,18 +68,21 @@ public class Hit {
 
 	/**
 	 * 判断是否是词的前缀
+	 * @return
 	 */
 	public boolean isPrefix() {
 		return (this.hitState & PREFIX) > 0;
 	}
 	/**
-	 * 
+	 *
 	 */
 	public void setPrefix() {
 		this.hitState = this.hitState | PREFIX;
 	}
+
 	/**
 	 * 判断是否是不匹配
+	 * @return
 	 */
 	public boolean isUnmatch() {
 		return this.hitState == UNMATCH ;

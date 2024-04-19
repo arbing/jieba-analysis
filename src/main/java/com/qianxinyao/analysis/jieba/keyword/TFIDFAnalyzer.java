@@ -13,9 +13,9 @@ import com.huaban.analysis.jieba.JiebaSegmenter;
 
 /**
  * @author Tom Qian
- * @email tomqianmaple@outlook.com
- * @github https://github.com/bluemapleman
- * @date Oct 20, 2018
+ * email tomqianmaple@outlook.com
+ * github https://github.com/bluemapleman
+ * date Oct 20, 2018
  * tfidf算法原理参考：http://www.cnblogs.com/ywl925/p/3275878.html
  * 部分实现思路参考jieba分词：https://github.com/fxsjy/jieba
  */

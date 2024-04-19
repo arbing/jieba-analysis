@@ -1,9 +1,9 @@
 package com.huaban.analysis.jieba;
 
 /**
- * @description: enable output content to be controlled by switch
+ * enable output content to be controlled by switch
  * @author: sharkdoodoo@foxmail.com
- * @date: 2022/6/21
+ * 2022/6/21
  */
 public class Log {
 
